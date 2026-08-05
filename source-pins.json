@@ -3,12 +3,12 @@
   "sources": {
     "file-tunnel/ftnl-sync": {
       "branch": "main",
-      "sha": "e5c6183625a14843e5bf52bb04ad420eae6864a0",
+      "sha": "fab7f65fa317b5907f1048cf4a66a22b2b8f3434",
       "exists": true
     },
     "opto-sync/opto-sync-clients": {
       "branch": "main",
-      "sha": "068414c8ff7d4262d0a395959b5209d5908f0fcc",
+      "sha": "8799f71699947ce90912888213b6f035f51e67c4",
       "exists": true
     }
   }
