@@ -17,8 +17,8 @@ Source organization: `file-tunnel`
 
 | Source | Commit | Branch observed |
 |---|---:|---|
-| `file-tunnel/ftnl-sync` | `e5c6183625a14843e5bf52bb04ad420eae6864a0` | `main` |
-| `opto-sync/opto-sync-clients` | `068414c8ff7d4262d0a395959b5209d5908f0fcc` | `main` |
+| `file-tunnel/ftnl-sync` | `fab7f65fa317b5907f1048cf4a66a22b2b8f3434` | `main` |
+| `opto-sync/opto-sync-clients` | `8799f71699947ce90912888213b6f035f51e67c4` | `main` |
 
 ## Dependency lanes
 
