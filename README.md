@@ -17,8 +17,8 @@ Source organization: `file-tunnel`
 
 | Source | Commit | Branch observed |
 |---|---:|---|
-| `file-tunnel/ftnl-sync` | `fab7f65fa317b5907f1048cf4a66a22b2b8f3434` | `main` |
-| `opto-sync/opto-sync-clients` | `8799f71699947ce90912888213b6f035f51e67c4` | `main` |
+| `file-tunnel/ftnl-sync` | `e38e6012b858917729c0f7b722c78a9e8521facb` | `main` |
+| `opto-sync/opto-sync-clients` | `fdf4fad9e2e841f66ecee19fca3b408d5fa7fa4c` | `main` |
 
 ## Dependency lanes
 
@@ -28,5 +28,5 @@ Source organization: `file-tunnel`
 
 ## Running
 
-The pull-request workflow validates the generated contract without cross-organization credentials. Full integration is intentionally release-gated until required source repositories and organization read credentials are present. Run the profile-specific checks recorded in `test-plan.json` after materializing the submodule, Zed, or native-package lane.
+The pull-request workflow validates the generated contract without cross-organization credentials. Product-specific files outside the generated file set are preserved and must add executable assertions without weakening the base contract. Full integration is intentionally release-gated until required source repositories and organization read credentials are present. The generic protected lane reports source-access status only; source certification requires a product-specific executable overlay. A skipped integration job is not source certification. Run the profile-specific checks recorded in `test-plan.json` after materializing the submodule, Zed, or native-package lane.
 

@@ -25,14 +25,14 @@
       "fullName": "file-tunnel/ftnl-sync",
       "exists": true,
       "branch": "main",
-      "sha": "fab7f65fa317b5907f1048cf4a66a22b2b8f3434",
+      "sha": "e38e6012b858917729c0f7b722c78a9e8521facb",
       "visibility": "public"
     },
     {
       "fullName": "opto-sync/opto-sync-clients",
       "exists": true,
       "branch": "main",
-      "sha": "8799f71699947ce90912888213b6f035f51e67c4",
+      "sha": "fdf4fad9e2e841f66ecee19fca3b408d5fa7fa4c",
       "visibility": "public"
     }
   ],
@@ -42,6 +42,9 @@
     "immutableSourcePins": true,
     "pullRequestCredentials": false,
     "leastPrivilege": true,
-    "redactSecretsAndRawMedia": true
+    "redactSecretsAndRawMedia": true,
+    "protectedSourceIntegration": true,
+    "protectedSourceIntegrationStatus": "not-executed-unless-protected-lane-runs",
+    "productOverlayPreserved": true
   }
 }
